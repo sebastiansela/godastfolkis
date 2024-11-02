@@ -1,0 +1,25 @@
+/*const BeerCardsGallery: React.FC = () => {
+  return (
+    <div className="beerCards">
+      {beers.map((beer, index) => (
+        <div className="ui card" key={index}>
+          <div className="image">
+            <img src={beer.imgSource} alt={beer.name} />
+          </div>
+          <div className="content">
+            <p className="header">{beer.name}</p>
+            <div className="description">{beer.caption}</div>
+          </div>
+          <div className="extra content">
+            <div
+              className="ui star rating"
+              data-rating={beer.rating}
+              data-max-rating="5"
+            ></div>
+            <Rating name="read-only" value={beer.rating} readOnly />
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}; */
